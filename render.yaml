@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: soc-analyzer-backend
+    env: python
+    buildCommand: "cd backend && pip install -r requirements.txt"
+    startCommand: "cd backend && uvicorn app.main:app --host 0.0.0.0 --port $PORT"
+    envVars:
+      - key: DATABASE_URL
+        sync: false # Needs to be pasted in Render dashboard from Neon
+      - key: OPENAI_API_KEY
+        sync: false # Needs to be pasted in Render dashboard
+      - key: USE_LLM
+        value: "true"
+      - key: OPENAI_MODEL
+        value: "gpt-4o"
+      - key: JWT_SECRET_KEY
+        value: "supersecretkey_production_environment"

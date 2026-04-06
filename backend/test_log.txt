@@ -1,0 +1,2 @@
+2026-04-05 10:00:00 user1 192.168.1.100 example.com /login ALLOWED 200 "Mozilla"
+2026-04-05 10:01:00 attacker 10.0.0.5 malwaredomain.com /exploit BLOCKED 403 "curl"
