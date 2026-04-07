@@ -151,6 +151,10 @@ The sleek dashboard will automatically open in your local browser (usually acces
 
 ---
 
+## Working Preview
+
+Please Refer to the following link : https://drive.google.com/file/d/1g9btT1GehyhnZb-hqdcNz-I7llPsOt7F/view?usp=sharing for the Working preview.
+
 ## 🛠️ Tech Stack
 
 - **Frontend:** React 19, TypeScript, Vite, TailwindCSS 4, Recharts
