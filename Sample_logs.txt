@@ -1,0 +1,10 @@
+2026-04-03T10:15:00Z,alice,10.0.0.5,malicious-site.com,http://malicious-site.com,blocked,403,Mozilla/5.0
+2026-04-03T10:16:00Z,bob,10.0.0.8,example.com,http://example.com,allowed,200,Chrome/122.0
+2026-04-03T10:17:00Z,alice,10.0.0.5,suspicious-site.net,http://suspicious-site.net,blocked,403,Mozilla/5.0
+2026-04-03T10:18:00Z,charlie,10.0.0.12,internal.local,http://internal.local,allowed,200,Edge/120.0
+2026-04-03T10:19:00Z,alice,10.0.0.5,malicious-site.com,http://malicious-site.com,blocked,403,Mozilla/5.0
+2026-04-03T10:20:00Z,bob,10.0.0.8,example.com,http://example.com,allowed,200,Chrome/122.0
+2026-04-03T10:21:00Z,unknown,192.168.1.50,phishing-site.org,http://phishing-site.org,blocked,403,UnknownAgent
+2026-04-03T10:22:00Z,david,10.0.0.15,normal-site.com,http://normal-site.com,allowed,200,Safari/17.0
+2026-04-03T10:23:00Z,alice,10.0.0.5,suspicious-site.net,http://suspicious-site.net,blocked,403,Mozilla/5.0
+2026-04-03T10:24:00Z,eve,172.16.0.3,unknown-domain.xyz,http://unknown-domain.xyz,blocked,403,CustomAgent/1.0
